@@ -2324,7 +2324,7 @@ def calculate_emissions(engine_size, cylinders, fuel_consumption, make, model, v
     return emission
 
 # Streamlit UI
-st.title("Vehicle Emissions Calculator")
+st.title("Canadian Vehicle Emissions Calculator")
 st.subheader("Design and Development by Chethiyaprasanga.com")
 st.markdown("---")
 st.markdown("## Code Explanations")
@@ -2367,7 +2367,6 @@ with col2:
 
     st.markdown("### Fuel Consumption")
     st.markdown("""
-    City and highway fuel consumption ratings are shown in litres per 100 kilometres (L/100 km).  
     The combined rating (55% city, 45% highway) is shown in L/100 km and is used in this calculator.
     """)
 
